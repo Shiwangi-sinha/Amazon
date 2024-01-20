@@ -1,0 +1,396 @@
+div{
+    border: 1px solid black;
+   
+}
+
+.homepage{
+    display: flex;
+    flex-direction: column;
+    height: 500vw;
+}
+
+.navbar{
+    position: relative;
+    height: 0.9%;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    gap: 20px;
+    background-color: #0F1111;
+}
+
+header{
+    
+    display: flex;
+    flex-direction: row;
+}
+
+.amazon-icon{
+    padding-left: 10%;
+    font-family: "Amazon Ember",Arial,sans-serif;
+    font-size: 12px;
+    line-height: 1em;
+    display: flex;
+    flex-direction: row;
+    border-radius: 0.3rem;
+    height: 50%;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    clear: both;
+}
+
+.amazon-icon:hover{
+    border: 1px solid #fff;
+}
+
+.location{
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    text-align: center;
+    border-radius: 0.3rem;
+    padding-left: 0;
+}
+
+.location:hover{
+    border: 1px solid #fff;
+
+}
+
+.update{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+input{
+    -webkit-transition: all .1s linear;
+    transition: all .1s linear;
+    line-height: 19px;
+    color: #0F1111;
+}
+
+.modal{
+    position: fixed;
+    border-radius: 8px;
+    border: 0;
+    border-color: #D5D9D9;
+    box-shadow: 0 0 14px 0 rgba(15,17,17,.5);
+    height: 35%;
+    display: none;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    overflow: hidden;
+    top: 40%;
+    left: 37%;
+}
+
+.model-content{
+    background-color: #fefefe;
+  margin: auto;
+  border-radius: 8px;
+  border: 1px solid #888;
+  display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    padding: 20px;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+.header{
+    border-bottom: 1px solid #D5D9D9;
+    background-color: #F0F2F2;
+    border-radius: 8px 8px 0 0;
+    padding: 0 24px;
+    color: black;
+    width: 87.6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.select_loc{
+    padding: 20px;
+    color: black;
+    border: 0;
+}
+
+.button1{
+    width: 100%;
+    background: #FFD814;
+    border-color: #FCD200;
+    border-radius: 7px;
+    height: 29px;
+    border: 0;
+}
+
+.a-divider{
+    margin-bottom: 14px;
+    line-height: 0;
+    padding-top: 1px;
+    position: relative;
+    text-align: center;
+    top: 2px;
+    border: 0;
+}
+
+.a-divider .a-divider-break::after{
+    background-color: transparent;
+    border-top: 1px solid #BBBFBF;
+    content: "";
+    display: block;
+    height: 1px;
+    margin-top: -1px;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    width: 100%;
+}
+
+.a-button-input {
+    position: absolute;
+    background-color: transparent;
+    color: transparent;
+    border: 0;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    opacity: .01;
+    outline: 0;
+    overflow: visible;
+    z-index: 20;
+}
+
+.a-button-text{
+    color: #0F1111;
+    display: block;
+    padding: 0 10px 0 11px;
+    cursor: pointer;
+    background-color: #FFD814;
+    line-height: 29px;
+    font-size: 13px;
+    border: 0;
+    white-space: nowrap;
+    text-align: center;
+    border-radius: 7px;
+}
+.apply{
+    background-color: #fff;
+    border: 1px solid #D5D9D9;
+}
+.apply:hover{
+    background-color: #D5D9D9;
+}
+
+.enter{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    border: 0;
+}
+
+input{
+    vertical-align: middle;
+    font-family: inherit;
+    color: #0F1111;
+    transition: all .1s linear;
+}
+
+.nav-fill{
+    height: 100%;
+    border: 1px solid white;
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    position: relative;
+    flex: 1 1 0px;
+}
+
+.nav-left{
+    width: 13%;
+    height: 45px;
+    background-color: #e6e6e6;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #007185;
+    cursor: pointer;
+}
+
+forms{
+    gap: 0;
+    padding-left: 15px;;
+}
+
+.navbar2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    
+    height:0.5%;
+    padding-left: 1%;
+    background-color: #232f3e;
+}
+
+.all{
+    height: 90%;
+    width: 4%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu-icon{
+    width: 21px;
+  height: 2px;
+  background-color: #fff;
+  margin: 2px 0;
+  border: 0;
+
+}
+
+.buttons{
+   border: none;
+}
+
+.buttons:hover{
+   border: 1px solid white;
+   border-radius: 0.3rem;
+}
+
+.a_style{
+    text-decoration: none;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    text-align: center;
+    padding: 8px;
+}
+
+.pinwheel{
+    display: flex;
+    border: 0;
+    padding: 0;
+    flex-direction: row;
+    align-items: center;
+    height: 0.7%;
+    width: 20%;
+}
+
+.popup{
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    user-select: none;
+    width: 5%;
+}
+
+.popup .popuptext{
+    visibility: hidden;
+    border: 5px solid #e2d3d3;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    top: 110%;
+    left: 30%;
+    
+    }
+
+    .popup .popuptext::after {
+        visibility: visible;
+        content: "";
+        position: absolute;
+        top: 70%;
+        right: -250%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+      }
+      
+      /* Toggle this class - hide and show the popup */
+      .popup .show {
+        visibility: visible;
+        -webkit-animation: fadeIn 1s;
+        animation: fadeIn 1s;
+      }
+      
+      /* Add animation (fade in the popup) */
+      @-webkit-keyframes fadeIn {
+        from {opacity: 0;} 
+        to {opacity: 0;}
+      }
+      
+      @keyframes fadeIn {
+        from {opacity: 0;}
+        to {opacity:1 ;}
+      }
+
+      .amazon-background{
+        height: 7%;
+        
+        
+        display: flex;
+        flex-direction: column;
+        
+      }
+
+      .aamazon-background-inner{
+        top: 40%;
+        padding: 20px;
+        height: 400vw;
+        border: #000;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+      }
+
+      .appliances{
+        width: 30%;
+        height: 400px;
+      }
+
+      .carousel {
+        position: relative;
+        margin-bottom: 4rem;
+        border: 0;
+    }
