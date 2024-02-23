@@ -1,7 +1,8 @@
-div{
-    border: 1px solid black;
-   
+body{
+    background-color: rgb(240, 235, 235);
 }
+
+
 
 .homepage{
     display: flex;
@@ -14,6 +15,7 @@ div{
     height: 0.9%;
     display: flex;
     flex-direction: row;
+
     text-align: center;
     align-items: center;
     gap: 20px;
@@ -221,23 +223,60 @@ input{
     transition: all .1s linear;
 }
 
+.nav-belt{
+    display: flex;
+    flex-direction: row;
+    height: 10%;
+    width:80%;
+}
+
+script{
+    display: none;
+}
+
 .nav-fill{
     height: 100%;
     border: 1px solid white;
-    width: 500px;
+    width: 80%;
     display: flex;
     flex-direction: row;
+    flex-flow: row nowrap;
     align-items: center;
-    
-    position: relative;
+    position: static;
     flex: 1 1 0px;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 .nav-left{
-    width: 13%;
-    height: 45px;
+    width: 12%;
+    height: 40px;
     background-color: #e6e6e6;
-    
+    display: flex;
+    position: static;
+}
+
+.nav-left-choose{
+    margin-left: 5px;
+    top: 3px;
+    padding: 0;
+    overflow: hidden;
+    white-space: nowrap;
+    gap: 5px;
+}
+
+.nav-search-dropdown{
+    visibility: visible;
+    position: absolute;
+    width: auto;
+    height: 35px;
+    opacity: 0;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.nav-right{
+
 }
 
 a{
@@ -366,31 +405,114 @@ forms{
 
       .amazon-background{
         height: 7%;
-        
-        
+        background-color: rgb(240, 235, 235);
+       
+      }
+
+      .amazon-background-inner{
+        top: 50%;
+        background-color: rgb(240, 235, 235);
+        height: 61vw;
+        border: none;
+        width: 100%;
+        gap: 15px;
+        display: flex;
+        flex-direction: row;
+        justify-content:center;
+        align-items: center;
+        flex-wrap: wrap;
+        font-family: "Amazon Ember",Arial,sans-serif;
+        overflow: hidden;
+        position: absolute;
+      }
+
+      .appliances{
+        background-color: white;
+        width: 23.89%;
+        height: 420px;
         display: flex;
         flex-direction: column;
         
       }
 
-      .aamazon-background-inner{
-        top: 40%;
-        padding: 20px;
-        height: 400vw;
-        border: #000;
-        width: 100%;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-      }
-
-      .appliances{
-        width: 30%;
-        height: 400px;
-      }
-
       .carousel {
+        background-color: rgb(240, 235, 235);
         position: relative;
         margin-bottom: 4rem;
         border: 0;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+        padding-top: 0;
+        
+    }
+
+    .head{
+        font-weight: 750;
+        font-size: 20px;
+        padding: 15px;
+        color: #000;
+    }
+
+    .containers{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 68%;
+        padding: 10px;
+        gap: 15px;
+        justify-content: center;
+    }
+    .boxes{
+        height: 45%;
+        border: none;
+        width: 45%;
+    }
+
+    .image{
+        height: 80%;
+    }
+
+    span{
+        font-size: 12px;
+        color: #000;
+        padding: 1px;
+    }
+
+    .things{
+        text-decoration: none;
+        gap: 20px;
+        cursor: pointer;
+        width: 100%;
+        position: relative;
+    }
+
+    .today-deal{
+        height: 32vw;
+       
+        display: flex;
+        flex-direction: column;
+        top: 92.5%;
+        position: relative;
+    }
+
+    .head_deal{
+        display: flex;
+        align-items: center;
+        height: 10%;
+    }
+
+    .deals:hover{
+        color: #C7511F;
+        border-bottom: #C7511F;
+    }
+
+    .items{
+        height: 70%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .sale{
+        padding: 5px;
     }
